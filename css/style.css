@@ -23,15 +23,13 @@ font-family: 'Archivo Black', sans-serif;*/
 
 /*ETIQUETAS*/
 body{
-	background-image: url(../img/fondo.jpg);
-	background-repeat: no-repeat;
-	background-size: cover; 
+	background-color: white;
 }
 
 h1{
 	float: left;
 	font-family: 'Archivo Black', sans-serif;
-	color: white;
+	color: #0B2F3A;
 	margin-left: 10px;
 	font-size: 60px;
 	text-align: center; 
@@ -42,7 +40,7 @@ h1{
 
 h2{
 	font-family: 'Signika', sans-serif;
-	color: white;
+	color: #0B2F3A;
 	margin-left: 10px;
 	font-size: 20px;
 	text-align: left; 
@@ -59,7 +57,7 @@ h3{
 
 h4{
 	font-family: 'Signika', sans-serif;
-	color: #000;
+	color: #0B2F3A;
 	font-size: 15px;
 	text-align: center; 
 	margin-top: 400px; 
@@ -77,9 +75,10 @@ header{
 nav{	
 	width: 1000px;
 	height: 50px;
-	background-color: red;
+	background-color: #0B2F3A;
 	border-radius: 10px;
-	box-shadow: 0 0 20px inset;
+	box-shadow: inset 0 0 10px,
+	                  0 0 20px;	
 	box-shadow: 0 0 20px;
  
 	
@@ -91,24 +90,26 @@ ul{
 }
 
 li{
+	width: 110px;
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background-color: #FF8000;
 	margin: 3px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px white inset;
-	
+	border-radius: 10px;	
+	box-shadow: 0 0 10px inset;
+	text-align: center;
 }
 
 section{
 	width: 780px;
-	background: gray;
+	background-color: #FACC2E;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px inset;
+	box-shadow: inset 0 0 10px,
+	                  0 0 20px;
 	
 
 }
@@ -119,7 +120,8 @@ aside{
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px inset;
+	box-shadow: inset 0 0 10px,
+	                  0 0 20px;	
 	background-image: url(../img/banner.jpg);
 	background-repeat: no-repeat;
 	align: bottom;	
@@ -129,23 +131,25 @@ aside{
 footer{
 	width: 1000px;
 	height: 70px;
-	background: maroon;
+	background-color: #0B2F3A;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px inset;
+	box-shadow: inset 0 0 10px,
+	                  0 0 20px;	
 
 }
 
 p{
+	
 	font-family: 'Signika', sans-serif;
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: bolder;
+	color: #0B2F3A;
 	line-height: 17px;
 	padding: 10px;
 	text-align: justify;
 }
-
 
 
 /*PSEUDO CLASES*/
@@ -154,6 +158,11 @@ p{
 .menu:visited{color: white; text-decoration: none;}
 .menu:hover{color: white; text-decoration: none; text-shadow: 0 0 10px;}
 .menu:active{color: white; text-decoration: none;}
+
+
+li:hover{background-color: #0B2F3A; box-shadow: 0 0 10px;}
+
+
 
 
 
